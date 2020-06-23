@@ -1,0 +1,17 @@
+[[CUDNN_CUDA90]]
+arch = "x86_64"
+git-tree-sha1 = "64af5b057674c39b9feaac7ad55c77a35024b268"
+libc = "glibc"
+os = "linux"
+
+    [[CUDNN_CUDA90.download]]
+    sha256 = "a65a4076d6a6d985a75bef08e1d37bf6b850c287ca7754fca7cab8d4e2cfbf81"
+    url = "https://github.com/JuliaBinaryWrappers/CUDNN_CUDA90_jll.jl/releases/download/CUDNN_CUDA90-v7.6.5+0/CUDNN_CUDA90.v7.6.5.x86_64-linux-gnu.tar.gz"
+[[CUDNN_CUDA90]]
+arch = "x86_64"
+git-tree-sha1 = "4d4ffe77a5cfa077e9fe2c4b1d7de74c97a824cc"
+os = "windows"
+
+    [[CUDNN_CUDA90.download]]
+    sha256 = "7bbc980f59bfc9a49be8ad824403961df0155e4fc2c72be52a6cc4d5dc00443f"
+    url = "https://github.com/JuliaBinaryWrappers/CUDNN_CUDA90_jll.jl/releases/download/CUDNN_CUDA90-v7.6.5+0/CUDNN_CUDA90.v7.6.5.x86_64-w64-mingw32.tar.gz"
